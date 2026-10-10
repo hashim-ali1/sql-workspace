@@ -1,0 +1,13 @@
+# Avoid committing large query execution logs or reports
+*.log
+*.rdl.data
+
+# Prevent committing production data backups / dumps by accident
+*.bak
+*.sql.gz
+*.sql.zip
+*.dump
+
+# Local test databases
+*.sqlite
+*.db
